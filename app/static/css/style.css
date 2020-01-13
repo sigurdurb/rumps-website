@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h1{
+    font-size: 200px;
+    color: white;
+}
+
+hr{
+    background-color: white;
+    max-width: 50%;
+    height: 0.5em;
+}

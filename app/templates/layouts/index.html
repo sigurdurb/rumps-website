@@ -1,12 +1,49 @@
 {% extends "base.html" %}
 
 {% block title %}
-Home - {{ super() }}
+{{ super() }} - Home
 {% endblock %}
 
 
 {% block content %}
-<h1>Hello World</h1>
+
+
+<!-- Jumbotron -->
+<div class="jumbotron p-0 m-0">
+
+    <!-- Card image -->
+    <div class="view overlay rounded-top text-center" style="background-color: #47525f;">
+      <img src="https://user-images.githubusercontent.com/9976294/72290445-246d2f00-3645-11ea-99fa-d19385f22e8d.jpg" class="img-fluid" alt="Sample image">
+    </div>
+
+    <!-- Card content -->
+    <div class="card-body text-center mb-3">
+  
+      <!-- Title -->
+      <h3 class="card-title h3 my-4"><strong>Stjórn 2019 - 2020</strong></h3>
+      <!-- Text -->
+      <p class="card-text py-2">Formaður - Michelangelo Diamanti <a href="mailto:michelangelo17@ru.is">michelangelo17@ru.is</a></p>
+      <p class="card-text py-2">Gjaldkeri - Pétur Ólafur Aðalgeirsson <a href="mailto:petura11@ru.is">petura11@ru.is</a></p>
+      <p class="card-text py-2">Viðburðar- og markaðsstjóri - Egill Anton Hlöðversson <a href="mailto:egilla14@ru.is">egilla14@ru.is</a></p>
+      <p class="card-text py-2">Nemendafulltrúi - Ásmundur Alma Guðjónsson 	<a href="mailto:asmundur10@ru.is">asmundur10@ru.is</a></p>
+    </div>
+  
+    <!-- Footer -->
+    <div class="card-body text-center text-white mb-0"  style="background-color: #47525f;">
+
+        <!-- Title -->
+        <h3 class="card-title h3 my-4"><strong>RUMPS - Félag framhaldsnema við Háskólann í Reykjavík</strong></h3>
+        <!-- Text -->
+        <p class="card-text">KT: 59091-70440</p>
+        <p class="card-text">Menntavegur 1, 102 Reykjavík</p>
+        <p class="card-text"><a href="mailto:rumps@ru.is">rumps@ru.is</a></p>
+        <p class="card-text">Copyright &copy; 2020 RUMPS</p>
+          
+        </div>
+  </div>
+  <!-- Jumbotron -->
+
+
 {% endblock %}
 
 {% block scripts %}
