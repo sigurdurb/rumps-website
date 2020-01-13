@@ -2,6 +2,13 @@
 RUMPS Website
 </h1>
 
+<img src="https://user-images.githubusercontent.com/9976294/72295576-c7c34180-364f-11ea-8cc7-3ced8c263b76.jpg" alt="Screenshot" align="center"/>
+
+<h2 align="center">
+<a href="http://www.rumps.ru.is">www.rumps.ru.is</a>
+</h2>
+
+
 ## Setup
 
 Make sure to have Python 3.6 or newer, and pip installed.
